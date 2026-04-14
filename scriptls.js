@@ -46,7 +46,7 @@ function simpan() {
             document.getElementById("list-belanja").innerHTML += `<div class="col-lg-4 col-md-6 col-sm-12">
             <h4 class="text-primary">${element.nama}</h4> 
             <h6 class="text-danger">${element.jumlah}</h6>
-            <img src="${element.keterangan}" alt="${element.nama}" class="img-fluid mt-2">
+            
             <div> ` 
 
         });
